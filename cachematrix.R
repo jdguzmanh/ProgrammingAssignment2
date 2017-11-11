@@ -19,7 +19,7 @@ makeCacheMatrix <- function(x = matrix()) {
 			m<<- solve
 			
 	}
-	##function returns the inverse matrix calculated / función que retorna la matriz inversa calculada
+	##function returns the inverse matrix calculated / funciÃ³n que retorna la matriz inversa calculada
 	getminv <- function() {
 			m
 			
@@ -33,7 +33,7 @@ makeCacheMatrix <- function(x = matrix()) {
 cacheSolve <- function(x, ...) {
     ## Return a matrix that is the inverse of 'x'
 	m <-x$getminv()
-	## Assesses whether the control variable is null, obtinte not be the inverse of the global variable / Evalúa si la variable de control es nula, de no serlo obtinte la inversa de la variable global
+	## Assesses whether the control variable is null, obtinte not be the inverse of the global variable / EvalÃºa si la variable de control es nula, de no serlo obtinte la matrix inversa de la variable global
 	if(!is.null(m)){
 			message("getting cached data")
 			return(m)
